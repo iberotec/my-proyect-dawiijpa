@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+	<persistence-unit name="colegio" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>edu.cibertec.bean.Usuario</class>
+		<class>edu.cibertec.bean.MensajePK</class>
+		<class>edu.cibertec.bean.Mensaje</class>
+		<class>edu.cibertec.bean.TipoExamen</class>
+		<class>edu.cibertec.bean.Examen</class>
+		<class>edu.cibertec.bean.Pregunta</class>
+		<class>edu.cibertec.bean.PreguntaPK</class>
+		<class>edu.cibertec.bean.Examens_Usuario</class>
+		<class>edu.cibertec.bean.Examens_UsuarioPK</class>
+		<class>edu.cibertec.bean.Respuestas_Usuario</class>
+		<class>edu.cibertec.bean.Respuestas_UsuarioPK</class>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/proyecto" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="mysql" />
+			<property name="eclipselink.allow-zero-id" value="true" />
+			<property name="eclipselink.logging.level" value="FINEST" />
+		</properties>
+	</persistence-unit>
+
+</persistence>
