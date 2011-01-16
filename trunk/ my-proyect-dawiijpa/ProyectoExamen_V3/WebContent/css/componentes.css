@@ -1,0 +1,234 @@
+body {
+/*    font-size: 62.5%;*/
+}
+.labelWarning{
+    font-size: 10px;
+    font-family:arial;
+    font-weight: bold;
+    color: #0B6138;
+}
+.labelSmall{
+    font-size: 9px;
+    font-family:arial;
+}
+.labelError{
+    font-size: 10px;
+    font-family:arial;
+    font-weight: bold;
+    color: #FE2E2E;
+}
+.labelblue{
+    font-size: 10px;
+    font-family:arial;
+    font-weight: bold;
+    color: blue;
+}
+.label{
+    font-size: 10px;
+    font-family:arial;
+    font-weight: bold;
+}
+.labelBold{
+    font-size: 10px;
+    font-family:arial;
+    font-weight: bold;
+}
+.selectSmall{
+    font-size: 10px;
+}
+/**************** ESTILO TABLA FORMULARIO ******************/
+table.tblProceso{
+    background-color:#eee;
+    border:1px solid #ddd;
+    border-left-width:5px;
+    color:#333;
+    font-size:small;
+    padding:5px;
+    font-family:arial;
+}
+table.tblProceso thead tr th, table.tblProceso tfoot tr th {
+    font-size: 8pt;
+    padding: 4px;
+}
+.tblProceso td{
+    font-family:arial;
+    font-size: 10px;
+}
+/**************** ESTILO TABLA JQUERY ******************/
+table.tablesorter {
+    font-family:arial;
+    background-color: #CDCDCD;
+    font-size: 10px;
+    width: 100%;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #F9F9F9;
+    border: 1px solid #FFF;
+    padding: 4px;
+}
+table.tablesorter thead tr .header {
+    background-image: url(../images/jquery_table/bg.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 2px;
+    vertical-align: middle;
+    background-color: #FFF;
+    height: 15px;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/jquery_table/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/jquery_table/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+/**************** ESTILO IMPRESION ******************/
+table.tableImp {
+    font-family:arial;
+    margin:10px 0pt 15px;
+    font-size: 8px;
+    border-collapse:collapse;clear:both;
+}
+table.tableImp thead tr th{
+    background-color: #FFCC00;
+    font-size: 8px;
+    padding: 4px;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-top:#999 1px solid;
+    border-bottom:#999 1px solid;
+}
+th.piereporte  tfoot tr th{
+    background-color: #EFEFEF;
+    font-size: 8px;
+    padding: 4px;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-top:#999 1px solid;
+    border-bottom:#999 1px solid;
+}
+table.tableImp  tfoot tr th{
+    background-color: #EFEFEF;
+    font-size: 8px;
+    padding: 4px;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-top:#999 1px solid;
+    border-bottom:#999 1px solid;
+}
+table.tableImp thead td {
+    color: #3D3D3D;
+    padding: 4px;
+    /*background-color: #EFEFEF;*/
+    vertical-align: top;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-top:#999 1px solid;
+    border-bottom:#999 1px solid;
+    font-weight: bold;
+}
+
+table.tableImp tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    vertical-align: top;
+    border-right:#999 1px solid;
+    border-left:#999 1px solid;
+    border-top:#999 1px solid;
+    border-bottom:#999 1px solid;
+}
+/**************** ESTILO MANTENIMIENTO ******************/
+span.etiquetaBotonToolbar{
+    position: relative;
+    margin-bottom: 5px;
+    top: -4px;
+    left: 3px;
+    font-weight: bold;
+}
+
+span.botonToolbar{
+    color:#000000;
+    text-align: center;
+    font-size: 9px;
+    font-family:arial;
+    cursor: pointer;
+}
+table.tableMant {
+    font-family:arial;
+    font-size: 10px;
+    width: 100%;
+    border-left: #C9D6E4 1px solid;
+    border-right: #C9D6E4 1px solid;
+    border-bottom: #C9D6E4 1px solid;
+    border-top: #C9D6E4 1px solid;
+}
+table.tableMant thead tr th{
+    background-color: #F9F9F9;
+    font-size: 10px;
+    padding: 4px;
+    border-right:#C9D6E4 1px solid;
+}
+table.tableMant tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    border-top:#F2F2F2 1px solid;
+    height: 15px;
+}
+
+table.tableToolBar {
+    font-size: 10px;
+    border-collapse:collapse;clear:both;
+    border-left: #BFCEDF 1px solid;
+    border-top:#BFCEDF 1px solid;
+    border-right:#BFCEDF 1px solid;
+}
+
+.btn{
+  height: 23px;
+  background-color: #f5f5f0;
+  border-bottom: 1px solid #555555;
+  border-right:1px solid #555555;
+  border-top:0px;
+  border-left:0px;
+  font-size: 10px;
+  color:black;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  cursor:pointer;
+  margin-left:5px;
+  margin-right:5px; outline-width:0px;
+}
+
+.btn:hover{
+  height: 23px;
+  background-color: #f5f5f0;
+  border-bottom: 1px solid #AAAAAA;
+  border-right:1px solid #AAAAAA;
+  border-top:0px;
+  border-left:0px;
+  font-size: 10px;
+  color:black;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  cursor:pointer;
+  margin-left:5px;
+  margin-right:5px;
+  outline-width:0px;
+}
+.btnposicion{
+    background-position: 0px 2px;
+}
+.scroll{
+    overflow-x:scroll;
+    overflow-y:hidden;
+    scrollbar-shadow-color:#DEEBF5;
+}
